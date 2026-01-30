@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('Neg_Fun5 – Input should not accept slang', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
 
-  await page.locator('textarea').fill('mama gedhara yanavaa. oyaa enavadha?');
+  await page.locator('textarea').fill('mama 2025 di gedhara yanavaa!!!');
 
   await page.waitForTimeout(2000);
 
